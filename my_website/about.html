@@ -3,23 +3,76 @@
   <head>
     <meta charset="utf-8">
     <title>About</title>
+    <link href="about.css" rel="stylesheet" type="text/css">
   </head>
-  <style> sansserif {
-    font-family: Arial, Helvetica, sans-serif;
+  <style> 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
+li a.active {
+    background-color: #ac39ac;
+    color: blue;
+}
+
+li a:hover:not(.active) {
+    background-color: #391339;
+    color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+  
     </style>
   <body> 
   
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <h1> About Page! </h1>
+   <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="about.html">About</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+</ul>
+    <h1 class="hi"> About Page! </h1>
     <img src="images/piplup.png" height="200">
-    <p> My name is Andrew Nguyen.  I have been watching and experiencing Pokemon since 1st grade.  My first Pokemon game I came into contact with would most likely be Pokemon
-     Emerald.  I never actually got to play it, instead I watched my cousin play it.  Inspired by it, I got my first DS and Pokemon game called Pokemon Mystery Dungeon
-     Explorers of Time.   I was very fascinated by it, and eventually got my first main series game known as Pokemon Platinum in the 6th grade.  Since playing it,
-     I've asked my parents to help me with my Pokemon journey, and eventually I was able to play all Pokemon games to date.  In all, I'm very addicted
-     to Pokemon and will continue to play until the day I die!</p>
+    <img src="images/andrewaxew.gif" height="200">
+    <p class="kek"> My name is Andrew Nguyen.  I have been watching and experiencing Pokémon since 1st grade, now in the 11th.  My first Pokémon game I came into contact with would most likely be Pokemon
+     Emerald.  I never actually got to play it, instead I watched my cousin play it.  Inspired by it, I got my first DS and Pokemon game called Pokémon Mystery Dungeon
+     Explorers of Time.   I was very fascinated by it, and eventually got my first main series game known as Pokémon Platinum in the 6th grade.  Since playing it,
+     I've asked my parents to help me with my Pokémon journey, and eventually I was able to play all Pokémon games to date.  In all I really love Pokémon of all generations and I hope to continue 
+     playing it for the rest of my life!</p>
+     <h4>Schedule!</h4>
+        <table align="center">
+            <tr><th>Period</th><th>Classes</th></tr>
+            <tr><td>1</td><td>US History</td></tr>
+            <tr><td>2</td><td>AP Physics</td></tr>
+            <tr><td>3</td><td>Pre Calculus</td></tr>
+            <tr><td>4</td><td>AP Computer Science Principles</td></tr>
+            <tr><td>5</td><td>English 3P</td></tr>
+            <tr><td>6</td><td>Spanish 3</td></tr>
+        </table>
+ <h2 align="center"> Hobbies</h2>
+ <ul style="list-style-type:disc" class="drag">
+  <li>Playing Pokemon</li>
+  <li>Dying Inside</li>
+  <li>Sleeping</li>
+</ul>    
+<h3 class="hello"> Favorite music!</h3>
+<ol type="1" class="long">
+  <li>Future Colors by Plastic Trees</li>
+  <li>Pokémon Mystery Dungeon: Hidden Land</li>
+  <li>Pokémon Heart Gold/Soul Silver: Lance/Red's Theme</li>
+  <li>One Last Time by Ariana Grande</li>
+  <li>Had me at Hello by Olivia Holt</li>
+</ol>
+<p class= "hi"> Favorite Quote!
+"Though the parting hurts, the rest is up to you!"-Grovyle
+</p>
   </body>
 </html>

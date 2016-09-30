@@ -1,0 +1,42 @@
+body{background-image: url("images/pokemanz.gif");
+   font-family:"Lucidatypewriter", monospace; font-weight: bold;}
+
+p.mark {color:red;
+    border-style: double;
+}
+p.hi {text-align:center;
+color: blue; font-weight:bold;
+border-style: double;
+}
+table{
+    margin-left: auto;
+    margin-right: auto
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid #00CED1;
+    text-align:center;
+    background-color: #8B008B;
+}
+th{
+    text-align: center;
+    color: #00CED1;
+    background-color: #9932CC;
+}
+h3{text-align:center;
+    border-style:solid;
+}
+h4{text-align:center;
+    border-style:solid;
+}
+p.kek{
+    text-align:center;
+    color:purple;
+    font-weight:bold;
+    border-style: double;
+}
+p.long {
+text-align:center;}
+
+p.drag {text-align:center;}

@@ -1,0 +1,18 @@
+body {
+    background: url("images/stars.jpg" );
+    background-color: #00334;
+
+font-family:"Lucida Sans Unicode",Lucida Grande, sans-serif; font-weight: bold;}
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+body{
+    font-family:"Lucidatypewriter", monospace;
+    color: #003366;
+}
+h2{
+    font-size:1.3em;
+    text-align:center;
+}
